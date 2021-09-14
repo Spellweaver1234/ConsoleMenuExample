@@ -3,7 +3,7 @@
 namespace ConsoleMenuExample
 {
     class Program
-    {
+    {        
         static void Main(string[] args)
         {
             FirstMenu();
@@ -17,11 +17,12 @@ namespace ConsoleMenuExample
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Главное меню:");
-                Console.WriteLine("1) В меню 2");
-                Console.WriteLine("2) В меню 3");
-                Console.WriteLine("3) Выход");
-                Console.Write("\r\nВыберите действие: ");
+                Console.Write(
+                    $"Главное меню: " +
+                    $"\n 1 - В меню 2" +
+                    $"\n 2 - В меню 3" +
+                    $"\n 3 - Выход" +
+                    $"\nВыберите действие: ");
 
                 var answer = Console.ReadLine();
 
@@ -47,10 +48,11 @@ namespace ConsoleMenuExample
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Второе меню:");
-                Console.WriteLine("1) В главное меню");
-                Console.WriteLine("2) В меню 3");
-                Console.Write("\r\nВыберите действие: ");
+                Console.Write(
+                    $"Второе меню: " +
+                    $"\n 1 - В главное меню" +      
+                    $"\n 2 - В меню 3" +
+                    $"\nВыберите действие: ");      
 
                 var answer = Console.ReadLine();
 
@@ -73,10 +75,11 @@ namespace ConsoleMenuExample
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Третье меню:");
-                Console.WriteLine("1) В главное меню");
-                Console.WriteLine("2) Выход");
-                Console.Write("\r\nВыберите действие: ");
+                Console.Write(
+                    $"ретье меню: " +
+                    $"\n 1 - В главное меню" +
+                    $"\n 2 - Выход" +
+                    $"\nВыберите действие: ");
 
                 var answer = Console.ReadLine();
 
