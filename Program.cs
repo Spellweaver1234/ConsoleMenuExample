@@ -18,7 +18,7 @@ namespace ConsoleMenuExample
             {
                 Console.Clear();
                 Console.Write(
-                    $"Главное меню: " +
+                    $"Первое меню: " +
                     $"\n 1 - В меню 2" +
                     $"\n 2 - В меню 3" +
                     $"\n 3 - Выход" +
@@ -76,7 +76,7 @@ namespace ConsoleMenuExample
             {
                 Console.Clear();
                 Console.Write(
-                    $"ретье меню: " +
+                    $"Третье меню: " +
                     $"\n 1 - В главное меню" +
                     $"\n 2 - Выход" +
                     $"\nВыберите действие: ");
